@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Skoban</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)"  onload="initGame()">
+  <h1>Skoban</h1>
+  <h3>score: <span>100</span> </h3>
+  <button onclick="undo()" class="undo">undo</button>
+  <div class="table">
+  
+    <table>
+      <tbody onclick="handleKey(event)" class="board"></tbody>
+    </table>
+  </div>
+  <div class="restart-button">
+      <button  onclick="restart()">restart</button>
+      <p></p>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-color: lightgoldenrodyellow;
+    color: rgba(14, 26, 143, 0.568);
+    text-align: center;
+}
+
+span {
+    font-size: smaller;
+}
+
+button.undo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+table{
+    border: 2px solid rgb(153, 72, 72);
+    border-spacing: 2px;
+    border-radius: 3px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-left: 4px;
+    
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border: 3px solid rgba(175, 160, 160, 0.507);
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: auto;
+}
+
+.floor {
+    background-color: gray
+}
+
+.wall {
+    background-color: brown
+}
+
+.target {
+    background-color: rgba(0, 0, 205, 0.274);
+}
+
+.restart-button {
+    margin-top: 30px;
+}
